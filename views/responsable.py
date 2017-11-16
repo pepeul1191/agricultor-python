@@ -41,14 +41,10 @@ def guardar():
 				array_nuevos.append(temp)
 		if len(editados) != 0:
 			for editado in editados:
-				id = editado['id']
-				nombres = editado['nombres']
-				version = editado['version']
-				repositorio = editado['repositorio']
-				session.query(Sistema).filter_by(id = editado['id']).update(editado)
+				session.query(Responsable).filter_by(id = editado['id']).update(editado)
 		if len(eliminados) != 0:
 			for id in eliminados:
-				session.query(Sistema).filter_by(id = id).delete()
+				session.query(Responsable).filter_by(id = id).delete()
 		session.commit()
 		rpta = {'tipo_mensaje' : 'success', 'mensaje' : ['Se ha registrado los cambios en los reponsables', array_nuevos]}
 	except Exception as e:

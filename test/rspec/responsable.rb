@@ -79,5 +79,96 @@ def crear
   end
 end
 
+def editar
+  RSpec.describe App do
+    describe "3. Editar responsables: " do
+      it '3.1 Conexión con backend' do
+        url = 'test/conexion'
+        test = App.new(url)
+        test.get()
+        expect(test.response.code).to eq(200)
+      end
+      it '3.2 Editar responsables' do
+        data = {
+          :nuevos => [
+          ],
+          :editados => [
+            {
+              :id => '1',
+              :nombres => 'XD', 
+              :paterno => 'Dudmarsh', 
+              :materno => 'Colson', 
+              :correo => 'ccolson0@squidoo.com', 
+              :telefono => '235-446-6231'},
+            {
+              :id => '2',
+              :nombres => 'XD', 
+              :paterno => 'Labarre', 
+              :materno => 'Asgodby', 
+              :correo => 'casgodby1@tmall.com', 
+              :telefono => '903-282-9401'},
+            {
+              :id => '3',
+              :nombres => 'XD', 
+              :paterno => 'McGlone', 
+              :materno => 'Drakeley', 
+              :correo => 'mdrakeley2@squidoo.com', 
+              :telefono => '235-446-4376'},
+            {
+              :id => '4',
+              :nombres => 'XD', 
+              :paterno => 'Biddlecombe', 
+              :materno => 'Middas', 
+              :correo => 'amiddas3@squidoo.com', 
+              :telefono => '235-446-7602'}
+          ],  
+          :eliminados => []
+        }.to_json
+        url = 'responsable/guardar?data=' + data
+        test = App.new(url)
+        test.post()
+        expect(test.response.code).to eq(200)
+        expect(test.response.body).not_to include('error')
+        expect(test.response.body).to include('Se ha registrado los cambios en los reponsables')
+        expect(test.response.body).to include('success')
+      end
+    end
+  end
+end
+
+def eliminar
+  RSpec.describe App do
+    describe "3. Eliminar responsables: " do
+      it '3.1 Conexión con backend' do
+        url = 'test/conexion'
+        test = App.new(url)
+        test.get()
+        expect(test.response.code).to eq(200)
+      end
+      it '3.2 Eliminar responsables' do
+        data = {
+          :nuevos => [
+          ],
+          :editados => [
+          ],  
+          :eliminados => [
+            5,6,7
+          ]
+        }.to_json
+        url = 'responsable/guardar?data=' + data
+        test = App.new(url)
+        test.post()
+        expect(test.response.code).to eq(200)
+        expect(test.response.body).not_to include('error')
+        expect(test.response.body).to include('Se ha registrado los cambios en los reponsables')
+        expect(test.response.body).to include('success')
+      end
+    end
+  end
+end
+
+
 #listar
-crear
+#crear
+#editar
+eliminar
