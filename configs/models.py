@@ -1,25 +1,27 @@
 # -*- coding: utf-8 -*-
-from sqlalchemy import Table, Column, Integer, String, ForeignKey
+from sqlalchemy import Table, Column, Integer, String, ForeignKey, Double
 from configs.database import Base
 # http://docs.sqlalchemy.org/en/latest/orm/basic_relationships.html
-class Departamento(Base):
-	__tablename__ = 'departamentos'
+class Responsable(Base):
+	__tablename__ = 'responsables'
 	id = Column(Integer, primary_key=True)
-	nombre = Column(String)
+	nombres = Column(String)
+	paterno = Column(String)
+	materno = Column(String)
+	telefono = Column(String)
+	email = Column(String)
 
-class Provincia(Base):
-	__tablename__ = 'provincias'
+class Asociacion(Base):
+	__tablename__ = 'asociaciones'
 	id = Column(Integer, primary_key=True)
 	nombre = Column(String)
-	departamento_id = Column(Integer, ForeignKey('departamento.id'))
+	area = Column(Double)
+	referencia_llegada = Column(String)
+	responsable_id = Column(Integer, ForeignKey('responsable.id'))
 
-class Distrito(Base):
-	__tablename__ = 'distritos'
+class Campo(Base):
+	__tablename__ = 'campos'
 	id = Column(Integer, primary_key=True)
 	nombre = Column(String)
-	provincia_id = Column(Integer, ForeignKey('provincia.id'))
-
-class VWDistritoProvinciaDepartamento(Base):
-	__tablename__ = 'vw_distrito_provincia_departamento'
-	id = Column(Integer, primary_key=True)
-	nombre = Column(String)
+	area = Column(Double)
+	distrito_id = Column(Integer)
