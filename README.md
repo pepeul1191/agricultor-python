@@ -14,6 +14,33 @@ Instalación de dependencias:
 
 	$ sudo pip install -r requirements.txt && npm install && bower install 
 
+### Migraciones
+
+Ejecutar migración
+
+	$ sequel -m path/to/migrations postgres://host/database
+	$ sequel -m path/to/migrations sqlite://db/db_agricultor.db
+
+Ejecutar el 'down' de las migraciones de la última a la primera:
+
+	$ sequel -m db/migrations -M 0 sqlite://db/db_agricultor.db
+
+Ejecutar el 'up' de las migraciones hasta un versión especifica:
+
+	$ sequel -m db/migrations -M #version sqlite://db/db_agricultor.db
+
+Tipos de Datos de Columnas
+
+	+ :string=>String
+	+ :integer=>Integer
+	+ :date=>Date
+	+ :datetime=>[Time, DateTime].freeze, 
+	+ :time=>Sequel::SQLTime, 
+	+ :boolean=>[TrueClass, FalseClass].freeze, 
+	+ :float=>Float
+	+ :decimal=>BigDecimal
+	+ :blob=>Sequel::SQL::Blob
+
 ### Rutas
 
 	+ GET -> / : IndexController#index
