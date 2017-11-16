@@ -11,9 +11,9 @@ Sequel.migration do
 				paterno = line_array[1]
 				materno = line_array[2]
 				telefono = line_array[3]
-				email = line_array[4].strip
+				correo = line_array[4].strip
 				#puts id + " - " + nombre
-				DB[:responsables].insert(nombres: nombres, paterno: paterno, materno: materno, telefono: telefono, email: email)
+				DB[:responsables].insert(nombres: nombres, paterno: paterno, materno: materno, telefono: telefono, correo: correo)
 			end
 		end
   end

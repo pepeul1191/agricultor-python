@@ -6,7 +6,7 @@ Sequel.migration do
       String :paterno, null: false, size: 30
       String :materno, null: false, size: 30
       String :telefono, null: false, size: 30
-      String :email, null: false, size: 40
+      String :correo, null: false, size: 40
     end
 	end
 

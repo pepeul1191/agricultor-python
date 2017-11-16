@@ -9,7 +9,7 @@ class Responsable(Base):
 	paterno = Column(String)
 	materno = Column(String)
 	telefono = Column(String)
-	email = Column(String)
+	correo = Column(String)
 
 class Asociacion(Base):
 	__tablename__ = 'asociaciones'

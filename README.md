@@ -4,7 +4,6 @@ Requisitos de software previamente instalado:
 
 	+ Python 2.7
 	+ Python PIP
-	+ NodeJS - NPM - Gulp
 
 ### Descipción
 
@@ -47,16 +46,15 @@ Ejecutar
   $ cd test/rspec
   $ rspec spec distrito.rb registro.rb
 
-
 ### Rutas
 
 	+ GET -> / : IndexController#index
 	+ GET -> /error/404 : ErrorController#error_404
-	+ POST -> /usuario/acceder : UsuarioController#acceder
+	+ GET -> /responsable/listar : views.responbale#listar
 
-### Generar 'dist'
-	
-	$ gulp layout && gulp app && gulp error-css
+### Fuente de Datos Aletorios
+
+	+ https://www.mockaroo.com/
 
 ### Fuentes:
 

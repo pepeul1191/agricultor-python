@@ -17,7 +17,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.errorhandler(404)
 def not_found(e):
-    return render_template('error/404.html'), 404
+    return 'Error: Recurso no encontrado', 404
 
 @app.errorhandler(500)
 def server_error(e):
