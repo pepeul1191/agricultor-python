@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from sqlalchemy import Table, Column, Integer, String, ForeignKey, Double
+from sqlalchemy import Table, Column, Integer, String, ForeignKey, Float
 from configs.database import Base
 # http://docs.sqlalchemy.org/en/latest/orm/basic_relationships.html
 class Responsable(Base):
@@ -15,7 +15,7 @@ class Asociacion(Base):
 	__tablename__ = 'asociaciones'
 	id = Column(Integer, primary_key=True)
 	nombre = Column(String)
-	area = Column(Double)
+	area = Column(Float)
 	referencia_llegada = Column(String)
 	responsable_id = Column(Integer, ForeignKey('responsable.id'))
 
@@ -23,5 +23,5 @@ class Campo(Base):
 	__tablename__ = 'campos'
 	id = Column(Integer, primary_key=True)
 	nombre = Column(String)
-	area = Column(Double)
+	area = Column(Float)
 	distrito_id = Column(Integer)

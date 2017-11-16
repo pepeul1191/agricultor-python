@@ -7,8 +7,9 @@ def listar
   RSpec.describe App do
     describe "1. Listar responsables: " do
       it '1.1 Conexión con backend' do
-        test =App.new('')
-        test.servicios('backend', 'test/conexion')
+        url = 'test/conexion'
+        test = App.new(url)
+        test.get()
         expect(test.response.code).to eq(200)
       end
       it '1.2 Listar los responsables registrados' do

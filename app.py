@@ -4,15 +4,14 @@
 import os
 from flask import Flask, request, render_template
 from flask.ext.cors import CORS, cross_origin
-from views.asociacion import asociacion
-from views.campo import campo
+#from views.asociacion import asociacion
+#from views.campo import campo
 from views.responsable import responsable
 
 app = Flask(__name__)
-app.register_blueprint(home)
-app.register_blueprint(asociacion)
+#app.register_blueprint(asociacion)
 app.register_blueprint(responsable)
-app.register_blueprint(campo)
+#app.register_blueprint(campo)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
@@ -27,6 +26,10 @@ def server_error(e):
 @app.route('/')
 def index():
 	return 'Error : URI vacía'
+
+@app.route('/test/conexion')
+def test_conexion():
+	return 'Ok'
 
 @app.after_request
 def apply_caching(response):

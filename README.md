@@ -12,7 +12,7 @@ Servicio web desarrollado en PHP usando el framework FlightPHP, con patrones de 
 
 Instalación de dependencias:
 
-	$ sudo pip install -r requirements.txt && npm install && bower install 
+	$ sudo pip install -r requirements.txt && bundler install 
 
 ### Migraciones
 
@@ -40,6 +40,13 @@ Tipos de Datos de Columnas
 	+ :float=>Float
 	+ :decimal=>BigDecimal
 	+ :blob=>Sequel::SQL::Blob
+
+## Pruebas de Comportamiento
+
+Ejecutar
+  $ cd test/rspec
+  $ rspec spec distrito.rb registro.rb
+
 
 ### Rutas
 
