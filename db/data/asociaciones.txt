@@ -1,0 +1,200 @@
+Sheridan::25.03::Penstemon eatonii A. Gray::37
+Melody::12.82::Philadelphus zelleri Hu::13
+Hudson::5.61::Rhamnus serrata Humb. & Bonpl. ex Schult.::28
+South::30.99::Castilleja caudata (Pennell) Rebr.::44
+Melvin::4.79::Juncus hemiendytus F.J. Herm. var. hemiendytus::8
+Center::5.41::Mentzelia humilis (A. Gray) J. Darl.::22
+Westerfield::13.75::Trimezia Salisb. ex Herb.::18
+Springs::21.94::×Elyhordeum dutillyanum Lepage::36
+Pawling::11.64::Oenothera kunthiana (Spach) Munz::40
+Judy::21.91::Phyllopsora furfuracea (Pers.) Zahlbr.::21
+Brentwood::21.02::Pseudophoenix sargentii H. Wendl. ex Sarg.::29
+Garrison::3::Viola selkirkii Pursh ex Goldie::11
+Crest Line::10.1::Carex marina Dewey::47
+Maryland::27.99::Parnassia caroliniana Michx.::15
+Delladonna::27.82::Scirpus atrovirens Willd.::21
+Forster::29.26::Physocarpus monogynus (Torr.) J.M. Coult.::36
+Sutteridge::6.98::Cylindropuntia ×neoarbuscula (Griffiths) F.M. Knuth (pro sp.)::30
+Utah::8.41::Batis P. Br.::11
+Del Mar::23.44::Luina serpentina Cronquist::16
+Garrison::21.28::Crataegus consanguinea Beadle::48
+Hanover::24.4::Cryptantha grahamii I.M. Johnst.::18
+Stoughton::14.48::Virola theiodora (Spruce ex Benth.) Warb.::22
+Wayridge::9.62::Cynodontium Bruch & Schimp. ex Schimp.::37
+Loeprich::12.98::Calotropis gigantea (L.) W.T. Aiton::44
+Hayes::4.13::Umbilicaria polyphylla (L.) Baumg.::25
+Tomscot::22.55::Fumaria parviflora Lam.::13
+Green::20.7::Stachys bullata Benth.::21
+Moose::24.85::Gentianella propinqua (Richardson) J.M. Gillett ssp. propinqua::45
+Anzinger::7.94::Allium robinsonii L.F. Hend.::4
+Springview::13.33::Bryoerythrophyllum Chen::2
+Schurz::21.23::Caltha palustris L. var. palustris::43
+Walton::25.41::Zeuxine strateumatica (L.) Schltr.::12
+Gulseth::9.45::Anthoxanthum odoratum L. ssp. odoratum::26
+Fairview::12.98::Arnica ×diversifolia Greene (pro sp.)::18
+Arrowood::18.94::Melaleuca lanceolata Otto::50
+Coolidge::27.87::Selaginella wallacei Hieron.::29
+Carioca::27.77::Dillenia L.::21
+Hermina::27.12::Phaseolus lunatus L.::17
+Grasskamp::7.81::Icacina A. Juss.::3
+Nobel::8.91::Labordia helleri Sherff::38
+Norway Maple::24.81::Platyschkuhria integrifolia (A. Gray) Rydb. var. desertorum (M.E. Jones) W. Ellison::6
+Schiller::30.85::Russelia equisetiformis Schltdl. & Cham.::29
+Glacier Hill::11.12::Isopterygiopsis pulchella (Hedw.) Z. Iwats.::31
+Summerview::11.45::Panicum elephantipes Nees::50
+Westridge::17.96::Sedum spathulifolium Hook. ssp. spathulifolium::28
+Westport::8.69::Tetraneuris linearifolia (Hook.) Greene::15
+Packers::29::Navarretia mellita Greene::13
+Caliangt::21.14::Mimulus moschatus Douglas ex Lindl. var. longiflorus A. Gray::46
+Fairfield::6.9::Ramalina sinensis Jatta::14
+Anthes::21.93::Nephrolepis falcata (Cav.) C. Chr.::8
+Heath::2::Leptosiphon pygmaeus (Brand) J.M. Porter & L.A. Johnson ssp. continentalis (P.H. Raven) J.M. Porter & L.A. Johnson::1
+Eliot::4.76::Chaenotheca laevigata Nadv.::27
+Maple::24.88::Fimbristylis puberula (Michx.) Vahl::22
+Golf View::3.38::Fontinalis antipyretica Hedw. var. antipyretica::8
+Kensington::22.01::Vulpia microstachys (Nutt.) Munro::16
+Hoffman::26.68::Pilostyles Guill.::18
+Bluestem::1.8::Sphagnum warnstorfii Russow::34
+Center::24.7::Frangula californica (Eschsch.) A. Gray ssp. tomentella (Benth.) Kartesz & Gandhi::10
+Muir::11.09::Notholaena trichomanoides (L.) Desv.::11
+Service::12.95::Sidalcea elegans Greene::8
+Forest Run::23.71::Hieracium ×atramentarium (Naegeli & Peter) Zahn ex Engl. (pro sp.)::5
+Rockefeller::8.4::Menyanthes L.::21
+Hermina::18.5::Orthothecium chryseum (Schwägr.) Schimp. var. cochlearifolium (Lindb.) Limpr.::7
+Summit::13.55::Amblystegium Schimp.::40
+Birchwood::26.64::Egeria Planch.::36
+Vera::27.61::Jamesia americana Torr. & A. Gray::33
+Rigney::9.24::Orthotrichum exiguum Sull.::27
+High Crossing::3.19::Parkia R. Br.::16
+Forest::9.57::Carex hendersonii L.H. Bailey::22
+Golf::9.35::Peltula michoacanensis (de Lesd.) Wetmore::36
+Mosinee::23.57::Sansevieria roxburghiana Schult. & Schult. f.::5
+Lindbergh::15.9::Myagrum perfoliatum L.::46
+Gulseth::6.98::Lecidella flavosorediata (Vezda) Hertel & Leuckert::20
+Blaine::18.71::Leavenworthia stylosa A. Gray::6
+Grover::17.85::Monochoria hastata (L.) Solms [excluded]::4
+Arrowood::27::Topelia P.M. Jørg. & Vezda::23
+Nova::3.98::Lythrum thymifolia L.::31
+Boyd::7.06::Caulophyllum giganteum (Farw.) Loconte & Blackwell::23
+Messerschmidt::28.38::Cyperus floridanus Britton::7
+Northview::14.74::Cladonia bacilliformis (Nyl.) Gluck::31
+Stang::8.03::Sibbaldiopsis Rydb.::8
+Mallard::14.41::Eriogonum jamesii Benth. var. jamesii::11
+Summerview::27.92::Astragalus ensiformis M.E. Jones::20
+Maple Wood::30.63::Polysporina lapponica (Ach. ex Schaerer) Degel.::12
+Forster::17.87::Parmotremopsis antillensis (Nyl.) Elix & Hale::35
+Novick::30.2::Wilkesia gymnoxiphium A. Gray::27
+Fairfield::30.81::Luzula multiflora (Ehrh.) Lej.::29
+Moulton::11.11::Populus simonii Carrière [excluded]::49
+Superior::13.37::Hieracium scabrum Michx.::32
+Hollow Ridge::19.13::Malacothrix similis W.S. Davis & P.H. Raven::49
+Sutherland::6.12::Dasynotus I.M. Johnst.::27
+Nancy::10.92::Larix lyallii Parl.::42
+Eastlawn::18.98::Epilobium hornemannii Rchb. ssp. behringianum (Hausskn.) Hoch & P.H. Raven::7
+Hollow Ridge::13.49::Draba aprica Beadle::10
+Express::6.14::Cirsium occidentale (Nutt.) Jeps. var. californicum (A. Gray) Keil & C. Turner::29
+Everett::11.12::Houstonia acerosa (A. Gray) A. Gray ex Benth. & Hook. f. var. acerosa::27
+Elka::28.69::Castilleja salsuginosa N.H. Holmgren::49
+Merrick::26.64::Platanthera ×lassenii Schrenk::22
+Barby::15.61::Calliergon cordifolium (Hedw.) Kindb.::23
+Sommers::28.99::Chamaesyce thymifolia (L.) Millsp.::1
+Truax::4.42::Solidago mollis Bartlett var. mollis::33
+Shopko::7.95::Nymphoides indica (L.) Kuntze::45
+Kedzie::19.78::Gaillardia aestivalis (Walter) H. Rock var. aestivalis::41
+Lakewood::10.06::Dalea tenuifolia (A. Gray) Shinners::12
+Rutledge::16.17::Acer nigrum Michx. f.::27
+Hudson::4.92::Mimosa texana (A. Gray) Small::39
+Hazelcrest::1.53::Thelypteris opulenta (Kaulf.) Fosberg::19
+Reindahl::2.46::Rubus arizonensis Focke::5
+Vera::2.01::Tillandsia fasciculata Sw. var. densispica Mez::46
+Pepper Wood::28.07::Cycas revoluta Thunb.::39
+Anniversary::15.23::Acacia suaveolens (Sm.) Willd.::22
+Prairie Rose::9.3::Tripogon major Hook. f.::45
+Johnson::13.1::Luzula divaricata S. Watson::25
+Birchwood::9.96::Fuchsia arborescens Sims::50
+Rigney::12.34::Asplenium ×kokeense W.H. Wagner::1
+Lunder::30.65::Pentalinon luteum (L.) B.F. Hansen & Wunderlin::15
+Oneill::26.75::Diellia leucostegioides (Baker) W.H. Wagner::1
+Old Gate::2.99::Gaillardia pinnatifida Torr. var. pinnatifida::34
+Brown::17.79::Scleria pauciflora Muhl. ex Willd.::40
+Manufacturers::2.36::Rauvolfia serpentina (L.) Benth. ex Kurz::23
+Stang::28.99::Verrucaria Schrad.::17
+Gale::25.99::Carex ×sullivantii Boott::24
+North::9.82::Gentiana ×billingtonii Farw. (pro sp.)::13
+International::2.61::Calyptranthes zuzygium (L.) Sw.::37
+Redwing::11.7::Lupinus roseolus Rydb.::5
+Westport::29.34::Dipteryx Schreb.::37
+Spenser::28.38::Psidium calyptranthoides Alain::36
+4th::18.88::Krigia biflora (Walter) S.F. Blake::9
+Laurel::29.11::Geranium multiflorum A. Gray::12
+Delladonna::16.6::Harrisia fragrans Small ex Britton & Rose::36
+Dapin::24.29::Coprosma elliptica W.R.B. Oliv.::19
+Mockingbird::14.24::Splachnum vasculosum Hedw.::20
+Vermont::6.53::Corispermum pallidum Mosyakin::14
+Northport::16.66::Quercus ×discreta Laughlin::49
+8th::12.72::Valerianella chenopodiifolia (Pursh) DC.::16
+Londonderry::28.63::Rinodina oregana H. Magn.::42
+Hovde::6.34::Eriochloa michauxii (Poir.) Hitchc.::28
+Messerschmidt::13.32::Aralia elata (Miq.) Seem.::33
+Monica::18.75::Eurybia chlorolepis (Burgess) G.L. Nesom::31
+Debs::12.51::Solidago missouriensis Nutt. var. fasciculata Holz.::10
+Hoffman::27.13::Salix raupii Argus::10
+Dixon::2.92::Psorothamnus arborescens (Torr. ex A. Gray) Barneby var. minutifolius (Parish) Barneby::9
+Coolidge::20.01::Tauschia howellii (J.M. Coult. & Rose) J.F. Macbr.::3
+Springview::4.74::Solidago pinetorum Small::48
+Rowland::26.58::Verbena ×clemensiorum Moldenke::19
+Jay::4.87::Richardia tricocca (Torr. & A. Gray) Standl.::35
+Merrick::2.9::Melinis minutiflora P. Beauv.::9
+Towne::14.38::Penstemon leiophyllus Pennell var. leiophyllus::22
+Maple::28.88::Catapyrenium lachneum (Ach.) R. Sant.::15
+Maple Wood::21.58::Caesalpinia pulcherrima (L.) Sw.::30
+Sachtjen::13.41::Arnica chamissonis Less. ssp. foliosa (Nutt.) Maguire var. bernardina (Greene) Maguire::41
+Mariners Cove::14.6::Lecidea lurida (Ach.) DC.::2
+New Castle::2.96::Coleogyne Torr.::14
+Mariners Cove::21.54::Solidago wrightii A. Gray var. wrightii::37
+John Wall::17.11::Apium prostratum Labill.::35
+Eagan::22.95::Trillium rivale S. Watson::28
+Grim::29.74::Pylaisiadelpha Cardot::50
+Hintze::2.41::Coryphantha robustispina (Schott ex Engelm.) Britton & Rose::35
+Iowa::28.12::Cladium mariscus (L.) Pohl ssp. jamaicense (Crantz) Kük.::14
+Londonderry::28::Rhynchospora eximia (Nees) Boeckeler::21
+Mandrake::27.84::Dodonaea viscosa (L.) Jacq.::35
+Kenwood::29.23::Astragalus preussii A. Gray var. cutleri Barneby::47
+Northview::7.24::Litsea aestivalis (L.) Fernald::44
+Butterfield::21.53::Dicranella crispa (Hedw.) Schimp.::35
+Melvin::29.55::Congea Roxb.::18
+Donald::11.52::Eleocharis acutangula (Roxb.) Schult.::30
+Bartelt::27.29::Cyrto-hypnum (Hampe) Hampe & Lor.::47
+Randy::1.55::Caloncoba Gilg::45
+Moose::2.67::Erigeron inornatus (A. Gray) A. Gray var. keilii G.L. Nesom::18
+Grasskamp::15.77::Brunnichia Banks ex Gaertn.::43
+Emmet::23.74::Nicotiana acuminata (Graham) Hook. var. multiflora (Phil.) Reiche::21
+Armistice::29.17::Saxifraga virginiensis Michx. var. virginiensis::36
+Hoepker::16.41::Oryza glaberrima Steud.::5
+Forest Dale::25.26::Lipocarpha micrantha (Vahl) G. Tucker::38
+Vernon::4.02::Hymenocallis duvalensis Traub::47
+Lotheville::29.91::Rubus tygartensis H.A. Davis & T. Davis::34
+Crownhardt::8.41::Carex abrupta Mack.::45
+Montana::30.78::Cecropia schreberiana Miq.::2
+Melrose::18.25::Epilobium ciliatum Raf. ssp. ciliatum::47
+Texas::28.75::Hedyotis hillebrandii (Fosberg) W.L. Wagner & D.R. Herbst::14
+Calypso::30.95::Acanthomintha lanceolata Curran::15
+Delaware::5.61::Lysimachia haupuensis H. St. John::35
+Ohio::6.49::Balsamorhiza hookeri (Hook.) Nutt.::14
+Drewry::10.37::Ilex myrtifolia Walter::44
+Vidon::1.62::Nymphoides aquatica (J.F. Gmel.) Kuntze::20
+Sundown::17.72::Luzula comosa E. Mey.::30
+Lotheville::23.66::Eriogonum hemipterum (Torr.) S. Stokes::15
+Oakridge::3.26::Poa douglasii Nees::16
+Corry::28.57::Selaginella densa Rydb.::48
+Montana::18.47::Ipomoea pandurata (L.) G. Mey.::20
+Fair Oaks::27.87::Marshallia graminifolia (Walter) Small::4
+Schurz::28.72::Menegazzia terebrata (Hoffm.) A. Massal.::15
+Columbus::14.24::Artemisia suksdorfii Piper::38
+Northport::13.07::Arthothelium macounii (G. Merr.) W. Noble::40
+Vera::24.01::Trifolium arvense L.::23
+Gerald::4.84::Camissonia sierrae P.H. Raven ssp. sierrae::11
+Ridgeway::16.9::Kiaeria blyttii (Schimp.) Broth.::46
+Chive::13.61::Lavatera trimestris L.::42
+Columbus::11.52::Sorghastrum setosum (Griseb.) Hitchc.::18
+Lunder::27.25::Usnea strigosa (Ach.) Eaton ssp. major (Michx.) I. Tav.::9
