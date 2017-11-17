@@ -6,9 +6,14 @@ Sequel.migration do
       Float :area, null: false
       Integer :distrito_id, null: false
     end
+
+    alter_table(:campos) do
+      add_foreign_key :asociacion_id, :asociaciones
+    end
 	end
 
 	down do
+    drop_column :campos, :asociacion_id
 		drop_table(:campos)
 	end
 end
