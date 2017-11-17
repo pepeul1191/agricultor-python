@@ -4,7 +4,7 @@
 import json
 from flask import Blueprint, request
 from sqlalchemy.sql import select
-from configs.models import Responsable
+from configs.models import Responsable, VWNombreCompletoResponsable as VW
 from configs.database import engine, session_db
 
 responsable = Blueprint('responsable', __name__)
@@ -51,3 +51,10 @@ def guardar():
 		session.rollback()
 		rpta = {'tipo_mensaje' : 'error', 'mensaje' : ['Se ha producido un error en guardar la tabla de responsables', str(e)]}
 	return json.dumps(rpta)
+
+
+@responsable.route('/responsable/buscar', methods=['GET'])
+def buscar():
+	conn = engine.connect()
+	stmt = select([VW]).where(VW.responsable.like(request.args.get('responsable') + '%' )).limit(10)
+	return json.dumps([dict(r) for r in conn.execute(stmt)])
