@@ -1162,7 +1162,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+email: STRING",
+											"text": "+correo: STRING",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -3341,7 +3341,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFfxRwaFib/LDc="
 							},
-							"name": "email",
+							"name": "correo",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,

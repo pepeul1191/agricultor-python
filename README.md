@@ -44,7 +44,7 @@ Tipos de Datos de Columnas
 
 Ejecutar
   $ cd test/rspec
-  $ rspec spec distrito.rb registro.rb
+  $ rspec spec responsable.rb
 
 ### Rutas
 
