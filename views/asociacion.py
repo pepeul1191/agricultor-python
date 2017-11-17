@@ -13,13 +13,12 @@ asociacion = Blueprint('asociacion', __name__)
 def listar():
 	conn = engine.connect()
 	stmt = """
-        SELECT A.id, A.nombre, A.referencia_llegada, A.area, A.responsable_id, (R.paterno|| " " || R.materno|| ", " ||  R.nombre) AS responsable
+        SELECT A.id, A.nombre, A.referencia_llegada, A.area, A.responsable_id, (R.paterno|| " " || R.materno|| ", " ||  R.nombres) AS responsable
 				FROM asociaciones A INNER JOIN responsables R
 				ON A.responsable_id = R.id
         """
 	return json.dumps([dict(r) for r in conn.execute(stmt)])
 
-#{"nuevos":[],"editados":[{"id":"200","nombre":"Lunder","referencia_llegada":"Usnea strigosa (Ach.) Eaton ssp. major (Michx.) I. Tav.","area":"27.25","responsable_id":"2"}],"eliminados":[]}
 @asociacion.route('/asociacion/guardar', methods=['POST'])
 def guardar():
 	print request.args
