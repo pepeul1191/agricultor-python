@@ -25,6 +25,7 @@ class Campo(Base):
 	nombre = Column(String)
 	area = Column(Float)
 	distrito_id = Column(Integer)
+	asociacion_id = Column(Integer)
 
 class VWNombreCompletoResponsable(Base):
 	__tablename__ = 'vw_nombre_completo_responsable'

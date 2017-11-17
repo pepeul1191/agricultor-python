@@ -19,3 +19,39 @@ def listar(asociacion_id):
 				WHERE C.asociacion_id = %d 
         """ % asociacion_id
 	return json.dumps([dict(r) for r in conn.execute(stmt)])
+
+@campo.route('/campo/guardar', methods=['POST'])
+def guardar():
+	print request.args
+	data = json.loads(request.args['data'])
+	nuevos = data['nuevos']
+	editados = data['editados']
+	eliminados = data['eliminados']
+	array_nuevos = []
+	rpta = None
+	session = session_db()
+	try:
+		if len(nuevos) != 0:
+			for nuevo in nuevos:
+				temp_id = nuevo['id']
+				nombre = nuevo['nombre']
+				area = nuevo['area']
+				distrito_id = nuevo['distrito_id']
+				asociacion_id = nuevo['asociacion_id']
+				s = Campo(nombre = nombre, area = area, distrito_id = distrito_id, asociacion_id = asociacion_id)
+				session.add(s)
+				session.flush()
+				temp = {'temporal' : temp_id, 'nuevo_id' : s.id}
+				array_nuevos.append(temp)
+		if len(editados) != 0:
+			for editado in editados:
+				session.query(Campo).filter_by(id = editado['id']).update(editado)
+		if len(eliminados) != 0:
+			for id in eliminados:
+				session.query(Campo).filter_by(id = id).delete()
+		session.commit()
+		rpta = {'tipo_mensaje' : 'success', 'mensaje' : ['Se ha registrado los cambios en los campos de la asociación', array_nuevos]}
+	except Exception as e:
+		session.rollback()
+		rpta = {'tipo_mensaje' : 'error', 'mensaje' : ['Se ha producido un error en guardar la tabla de campos', str(e)]}
+	return json.dumps(rpta)
