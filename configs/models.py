@@ -17,7 +17,7 @@ class Asociacion(Base):
 	nombre = Column(String)
 	area = Column(Float)
 	referencia_llegada = Column(String)
-	responsable_id = Column(Integer, ForeignKey('responsable.id'))
+	responsable_id = Column(Integer, ForeignKey('responsables.id'))
 
 class Campo(Base):
 	__tablename__ = 'campos'
