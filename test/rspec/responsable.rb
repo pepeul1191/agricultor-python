@@ -167,8 +167,46 @@ def eliminar
   end
 end
 
+def buscar
+  RSpec.describe App do
+    describe "4. Buscar vista de nombre completo de responsables: " do
+      it '4.1 Conexión con backend' do
+        url = 'test/conexion'
+        test = App.new(url)
+        test.get()
+        expect(test.response.code).to eq(200)
+      end
+      it '4.2 Buscar reponsable' do
+        data = 'la'
+        url = 'responsable/buscar?responsable=' + data
+        test = App.new(url)
+        test.get()
+        expect(test.response.code).to eq(200)
+        expect(test.response.body).not_to include('error')
+        expect(JSON.parse(test.response.body).length).to eq(2)
+
+        data = 'l'
+        url = 'responsable/buscar?responsable=' + data
+        test = App.new(url)
+        test.get()
+        expect(test.response.code).to eq(200)
+        expect(test.response.body).not_to include('error')
+        expect(JSON.parse(test.response.body).length).to eq(3)
+
+        data = ''
+        url = 'responsable/buscar?responsable=' + data
+        test = App.new(url)
+        test.get()
+        expect(test.response.code).to eq(200)
+        expect(test.response.body).not_to include('error')
+        expect(JSON.parse(test.response.body).length).to eq(10)
+      end
+    end
+  end
+end
 
 #listar
 #crear
 #editar
-eliminar
+#eliminar
+buscar
