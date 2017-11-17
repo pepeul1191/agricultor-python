@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# views/provincia.py
+# views/responsable.py
 import json
 from flask import Blueprint, request
 from sqlalchemy.sql import select
