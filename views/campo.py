@@ -37,7 +37,7 @@ def guardar():
 				nombre = nuevo['nombre']
 				area = nuevo['area']
 				distrito_id = nuevo['distrito_id']
-				asociacion_id = nuevo['asociacion_id']
+				asociacion_id = data['extra']['asociacion_id']
 				s = Campo(nombre = nombre, area = area, distrito_id = distrito_id, asociacion_id = asociacion_id)
 				session.add(s)
 				session.flush()
