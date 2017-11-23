@@ -1,5 +1,3 @@
-Flask
 flask
 flask-cors
-request
-SQLAlchemy==1.1.6
+SQLAlchemy
