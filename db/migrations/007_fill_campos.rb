@@ -12,7 +12,7 @@ Sequel.migration do
         asociacion_id = line_array[2]
         distrito_id = line_array[3].strip
         #puts id + " - " + nombre
-        DB[:campos].insert(nombre: nombre, area: area, asociacion_id: asociacion_id, distrito_id: distrito_id)
+        DB[:campos].insert(nombre: nombre, area: area, asociacion_id: asociacion_id, distrito_id: distrito_id, imagen_id: 'campo')
       end
     end
   end

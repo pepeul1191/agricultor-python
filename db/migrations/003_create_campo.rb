@@ -5,6 +5,7 @@ Sequel.migration do
       String :nombre, null: false, size: 30
       Float :area, null: false
       Integer :distrito_id, null: false
+      String :imagen_id, null: true
     end
 
     alter_table(:campos) do

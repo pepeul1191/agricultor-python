@@ -13,7 +13,7 @@ campo = Blueprint('campo', __name__)
 def listar(asociacion_id):
 	conn = engine.connect()
 	stmt = """
-        SELECT C.id, C.nombre, C.area, C.distrito_id, C.asociacion_id, A.nombre AS asociacion 
+        SELECT C.id, C.nombre, C.area, C.distrito_id, C.asociacion_id, C.imagen_id, A.nombre AS asociacion 
 				FROM campos C INNER JOIN asociaciones A
 				ON C.asociacion_id = A.id
 				WHERE C.asociacion_id = %d 
@@ -36,9 +36,10 @@ def guardar():
 				temp_id = nuevo['id']
 				nombre = nuevo['nombre']
 				area = nuevo['area']
+				imagen_id = data['imagen_id']
 				distrito_id = nuevo['distrito_id']
 				asociacion_id = data['extra']['asociacion_id']
-				s = Campo(nombre = nombre, area = area, distrito_id = distrito_id, asociacion_id = asociacion_id)
+				s = Campo(nombre = nombre, area = area, distrito_id = distrito_id, imagen_id = imagen_id, asociacion_id = asociacion_id)
 				session.add(s)
 				session.flush()
 				temp = {'temporal' : temp_id, 'nuevo_id' : s.id}
