@@ -36,7 +36,7 @@ def guardar():
 				temp_id = nuevo['id']
 				nombre = nuevo['nombre']
 				area = nuevo['area']
-				imagen_id = data['imagen_id']
+				imagen_id = nuevo['imagen_id']
 				distrito_id = nuevo['distrito_id']
 				asociacion_id = data['extra']['asociacion_id']
 				s = Campo(nombre = nombre, area = area, distrito_id = distrito_id, imagen_id = imagen_id, asociacion_id = asociacion_id)
